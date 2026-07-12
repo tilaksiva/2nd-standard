@@ -3,6 +3,7 @@
    Vanilla JS, no dependencies. All progress lives in
    localStorage under STORAGE_KEY.
 ============================================================ */
+console.log('2nd Standard script loaded');
 
 const STORAGE_KEY = "expeditionClass2Save";
 
@@ -91,6 +92,7 @@ function popScreen() {
 
 /* ---------------- Home Screen ---------------- */
 function renderHome() {
+  console.log('renderHome called');
   const area = document.getElementById('app');
   area.innerHTML = `
     <section class="screen" id="home">
@@ -505,6 +507,7 @@ function checkAndAwardBadges() {
 
 /* ---------------- Init ---------------- */
 function init() {
+  console.log('init called');
   loadState();
   renderHome();
 }
