@@ -1,3 +1,4 @@
+alert("Script loaded");
 /* ============================================================
    2nd Standard Learning Adventure – App Logic
    Vanilla JS, no dependencies. All progress lives in
