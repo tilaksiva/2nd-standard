@@ -507,9 +507,14 @@ function checkAndAwardBadges() {
 
 /* ---------------- Init ---------------- */
 function init() {
-  console.log('init called');
-  loadState();
-  renderHome();
+  try {
+    console.log('init called');
+    loadState();
+    renderHome();
+  } catch (e) {
+    console.error('Error in init:', e);
+    alert('An error occurred while initializing the app. See console for details.');
+  }
 }
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', init);
