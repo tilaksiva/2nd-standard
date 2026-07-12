@@ -101,7 +101,7 @@ const QUESTION_BANK = {
       // Letters & Sounds
       {
         q: "What sound does the letter 'B' make?",
-        options: ["buh", "bah", "beeh", "buh‑buh"],
+        options: ["buh", "bah", "beeh", "buh-buh"],
         answer: 0,
         explanation: "The letter B says /b/ as in 'bat'.",
         difficulty: "easy"
@@ -125,7 +125,7 @@ const QUESTION_BANK = {
         q: "Pick the word that rhymes with 'tree'.",
         options: ["car", "bee", "free", "cup"],
         answer: 2,
-        explanation: "Free sounds like tree – they rhyme!",
+        explanation: "Free sounds like tree - they rhyme!",
         difficulty: "easy"
       },
       // Sentences
@@ -146,7 +146,7 @@ const QUESTION_BANK = {
       // Rhyming Words
       {
         q: "Which pair rhymes?",
-        options: ["cat‑bat", "dog‑fish", "sun‑moon", "tree‑car"],
+        options: ["cat-bat", "dog-fish", "sun-moon", "tree-car"],
         answer: 0,
         explanation: "Cat and bat both end with the 'at' sound.",
         difficulty: "easy"
